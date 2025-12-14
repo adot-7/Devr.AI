@@ -37,7 +37,7 @@ Respond ONLY with JSON:
 Examples:
 - "Hi everyone!" → {{"needs_devrel": false, "priority": "low", "reasoning": "General greeting, no tag"}}
 - "@Devr.AI Hi!" → {{"needs_devrel": true, "priority": "high", "reasoning": "Direct mention"}}
-- "I'm getting a 500 error on /api/login" → {{"needs_devrel": true, "priority": "high", "reasoning": "Technical"}}
+- "I'm getting a 500 error on /api/login" → {{"needs_devrel": true, "priority": "medium", "reasoning": "Technical support"}}
 - "I think we should use React" → {{"needs_devrel": false, "priority": "low", "reasoning": "Opinion"}}
 - "How do I submit a PR?" → {{"needs_devrel": true, "priority": "medium", "reasoning": "Contribution question"}}
 """
